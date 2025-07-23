@@ -47,3 +47,4 @@ The line below will work in staging area only.
 
 8. `git restore --staged <fileName>` : It restores file from staging area to the working area.
 
+9. `git rm <filename>` : It removes the whole file from staging area and moves it the working area , means it is untracked by now ,But if you want to move the changes to working area and the staging area we just do git `restore`
