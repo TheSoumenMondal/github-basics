@@ -22,6 +22,28 @@ git rm --cached <filename>
 5. `Commit` : Commit is a particular version of your project. It captures a snapshot of the project's stage changes and create a version out of it.
 
 ```
-git commit -m "<Your commit message>"
+git commit 
 ```
+write the above command and you will be redirected to the vim editor 
+
+Now press `i`
+
+Then write any commit message you want 
+
+Then press`Esc` and `:` and then `wq` Then press enter ,
+
+Now your you commit has been created.
+
+
+6. `git log` : List down all the commits of the repository ,If you want to exit out of the git log prompt press `q`
+
+
+The line below works in working area :
+
+7. `git restore <filename>` : It removes all file changing from the staging area to be committed.This can be useful ,if we did some dirty piece of code and now no more want it.Instead of deleting every change line by line,we can restore it or you can sat restore last clean version of the file.
+
+
+The line below will work in staging area only.
+
+8. `git restore --staged <fileName>` : It restores file from staging area to the working area.
 
